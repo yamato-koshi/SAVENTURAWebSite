@@ -1,0 +1,160 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: #eff7f6;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000;
+}
+.menu ul{
+	display: flex;
+	align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+    margin-right: 10px;
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+    transition: all 0.4s;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid #000;
+	
+} 
+.signup a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid #0077b6;
+    transition: all 0.6s;
+}
+.signup a:hover{
+	background-color: #03045e;
+	color: #7CFFDE;
+    border: 2px solid #03045e;
+}
+.body{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(pexels-photo-18451005.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	width: 22%;
+	text-align: center;
+	color: #fff;
+}
+.heading h1{
+	font-size: 40px;
+}
+.heading a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: #fff;
+    transition: all 0.6s;
+}
+.heading a:hover{
+	letter-spacing: 5px;
+    background-color: #05668d;
+    color: #00b2ca;
+}
+.tours{
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+.places{
+	display: inline;
+	text-align: center;
+	border-radius: 12px;
+}
+.places h2{
+	color: #7CFFDE;
+    font-size: 19px;
+    letter-spacing: 3px;
+    border-radius: 15px;
+    padding: 44px 15px;
+    background: #028090;
+}
+.places a{
+	text-decoration: none;
+	color: #ade8f4;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 12px;
+	padding: 12px 30px;
+	background-color: #00b4d8;
+    transition: all 0.6s;
+}
+.places a:hover{
+	background-color: #03045e;
+	letter-spacing: 3px;
+	
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer a{
+	text-decoration: none;
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.4s;
+}
+.azul{
+    color: #000;
+}
+.azul:hover{
+    cursor: pointer;
+    color: #03045e;
+}
+.azul2{
+    color: #000;
+}
+.azul2:hover{
+    cursor: pointer;
+    color: #0077b6;
+}
+.azul3{
+    color: #000;
+}
+.azul3:hover{
+    cursor: pointer;
+    color: #00b4d8;
+}
+.azul4{
+    color: #000;
+}
+.azul4:hover{
+    cursor: pointer;
+    color: #90e0ef;
+}
